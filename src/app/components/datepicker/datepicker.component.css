@@ -1,0 +1,26 @@
+/* Change color of today's date */
+.ngb-dp-day.today {
+    background-color: #007bff;
+    /* Blue background for today */
+    color: white;
+    /* White text */
+}
+
+/* Change color of weekends */
+.ngb-dp-day.ngb-dp-day-saturday {
+    color: #ff5733;
+    /* Saturday color */
+}
+
+.ngb-dp-day.ngb-dp-day-sunday {
+    color: #ff33a8;
+    /* Sunday color */
+}
+
+/* Change color of selected date */
+.ngb-dp-day.selected {
+    background-color: #28a745;
+    /* Green background for selected date */
+    color: white;
+    /* White text */
+}
