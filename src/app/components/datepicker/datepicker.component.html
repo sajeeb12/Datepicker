@@ -38,7 +38,7 @@
     <code>bootstrap-icons</code>.
 </ngb-alert> -->
 
-<form class="grid grid-cols-12">
+<!-- <form class="grid grid-cols-12">
     <div class="col-span-12">
         <div class="input-group">
             <input class="form-control" placeholder="mm-dd-yyyy" name="dp" [(ngModel)]="model" ngbDatepicker
@@ -54,4 +54,22 @@
 <ngb-alert class="mt-3 mb-0" type="info" [dismissible]="false">
     You must provide the icon for the button that matches your application's style. In this example, the icon comes from
     <code>bootstrap-icons</code>.
-</ngb-alert>
+</ngb-alert> -->
+
+
+<!-- <input type="date" [(ngModel)]="selectedDate"
+    class="p-2 w-full text-sm border border-gray-300 rounded-lg focus:ring focus:border-blue-500">
+<p class="mt-2">Selected Date: {{ selectedDate }}</p> -->
+<div class="relative">
+    <!-- Input field to display the selected date -->
+    <input id="datepickerInput" type="text"
+        class="p-2 w-full text-sm border border-gray-300 rounded-lg shadow-sm focus:ring focus:border-blue-500"
+        placeholder="Select a date" readonly />
+
+    <!-- Button to open the datepicker -->
+    <button id="datepickerButton"
+        class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white px-3 py-1 rounded-lg"
+        type="button">
+        Open Calendar
+    </button>
+</div>

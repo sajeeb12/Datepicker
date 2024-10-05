@@ -22,6 +22,7 @@
     "@popperjs/core": "^2.11.8",
     "@themesberg/tailwind-datepicker": "^1.1.0",
     "bootstrap": "^5.3.3",
+    "flowbite": "^2.5.2",
     "preline": "^2.5.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
